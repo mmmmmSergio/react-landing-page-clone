@@ -3,7 +3,6 @@ import styles from './App.module.css';
 export default function App() {
   return (
     <>
-      <head></head>
       <header>
         <img alt="Logo" />
         <href src="/" />
