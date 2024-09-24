@@ -1,23 +1,50 @@
-import './App.css';
-import logo from './logo.svg';
+import styles from './App.module.css';
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <head></head>
+      <header>
+        <img alt="Logo" />
+        <href src="/" />
+        <nav>
+          <ul>
+            <li>
+              <a href="/">What is Miro</a>
+            </li>
+            <li>
+              <a href="/">Solutions</a>
+            </li>
+            <li>
+              <a href="/">Resources</a>
+            </li>
+            <li>
+              <a href="/">Enterprise</a>
+            </li>
+            <li>
+              <a href="/">Customers</a>
+            </li>
+            <li>
+              <a href="/">Pricing</a>
+            </li>
+          </ul>
+          <a href="/">Contact Sales</a>
+          <a href="/">Login</a>
+          <a href="/">Sign up free</a>
+        </nav>
       </header>
-    </div>
+      <main>
+        <section>
+          <h1>Innovate faster with Miro, the AI-powered visual workspace.</h1>
+          <p>
+            Bring teams together and quickly go from big ideas to execution with
+            a workspace that leverages AI at every stage.
+          </p>
+          <input type="email" />
+          <button>Sign up free</button>
+        </section>
+        <section>Next section placeholder</section>
+      </main>
+    </>
   );
 }
