@@ -31,7 +31,7 @@ export default function App() {
             </ul>
           </nav>
           <a href="/">Contact Sales</a>
-          <a href="/">Login</a>
+          <Button secondary>Login</Button>
           <Button>Sign up free</Button>
         </div>
       </header>
