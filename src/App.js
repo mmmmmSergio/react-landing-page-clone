@@ -1,12 +1,12 @@
 import styles from './App.module.css';
+import Logo from './svg/logo.png';
 
 export default function App() {
   return (
     <>
       <header>
         <div className={styles.header}>
-          <href src="/" />
-          <img alt="Logo" />
+          <img src={Logo} alt="Logo" className={styles.logo} />
           <nav>
             <ul>
               <li>

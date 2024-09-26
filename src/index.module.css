@@ -14,8 +14,20 @@
   --container-max: 1376px;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background: var(--color-background);
   color: var(--color-text);
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

@@ -2,12 +2,26 @@
   margin: 0 auto;
 }
 
+.logo {
+  max-width: 150px;
+}
+
 .header {
   composes: wrapper;
   display: flex;
+  align-items: center;
+
+  nav {
+    flex: 1;
+  }
 
   nav ul {
     list-style: none;
     display: flex;
+    gap: 30px;
   }
+}
+
+a {
+  text-decoration: none;
 }
