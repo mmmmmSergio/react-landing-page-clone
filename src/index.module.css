@@ -10,8 +10,12 @@
 
 :root {
   --color-background: #faf7ef;
+  --color-text: #000;
+  --container-max: 1376px;
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   background: var(--color-background);
+  color: var(--color-text);
 }

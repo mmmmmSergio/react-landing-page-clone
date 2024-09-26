@@ -4,33 +4,35 @@ export default function App() {
   return (
     <>
       <header>
-        <img alt="Logo" />
-        <href src="/" />
-        <nav>
-          <ul>
-            <li>
-              <a href="/">What is Miro</a>
-            </li>
-            <li>
-              <a href="/">Solutions</a>
-            </li>
-            <li>
-              <a href="/">Resources</a>
-            </li>
-            <li>
-              <a href="/">Enterprise</a>
-            </li>
-            <li>
-              <a href="/">Customers</a>
-            </li>
-            <li>
-              <a href="/">Pricing</a>
-            </li>
-          </ul>
-          <a href="/">Contact Sales</a>
-          <a href="/">Login</a>
-          <a href="/">Sign up free</a>
-        </nav>
+        <div className={styles.header}>
+          <href src="/" />
+          <img alt="Logo" />
+          <nav>
+            <ul>
+              <li>
+                <a href="/">What is Miro</a>
+              </li>
+              <li>
+                <a href="/">Solutions</a>
+              </li>
+              <li>
+                <a href="/">Resources</a>
+              </li>
+              <li>
+                <a href="/">Enterprise</a>
+              </li>
+              <li>
+                <a href="/">Customers</a>
+              </li>
+              <li>
+                <a href="/">Pricing</a>
+              </li>
+            </ul>
+            <a href="/">Contact Sales</a>
+            <a href="/">Login</a>
+            <a href="/">Sign up free</a>
+          </nav>
+        </div>
       </header>
       <main>
         <section>
