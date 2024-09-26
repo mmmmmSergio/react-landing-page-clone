@@ -1,4 +1,5 @@
 import styles from './App.module.css';
+import Button from './components/Button.js';
 import Logo from './svg/logo.png';
 
 export default function App() {
@@ -28,10 +29,10 @@ export default function App() {
                 <a href="/">Pricing</a>
               </li>
             </ul>
-            <a href="/">Contact Sales</a>
-            <a href="/">Login</a>
-            <a href="/">Sign up free</a>
           </nav>
+          <a href="/">Contact Sales</a>
+          <a href="/">Login</a>
+          <Button>Sign up free</Button>
         </div>
       </header>
       <main>
