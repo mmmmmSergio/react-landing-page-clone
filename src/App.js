@@ -1,6 +1,7 @@
 import styles from './App.module.css';
 import Button from './components/Button.js';
 import Logo from './svg/logo.png';
+import Placeholder from './svg/placeholder.png';
 
 export default function App() {
   return (
@@ -51,9 +52,13 @@ export default function App() {
             a workspace that leverages AI at every stage.
           </p>
           <input type="email" placeholder="Your email address" />
-          <Button>Sign up free</Button>
+          <Button large>Sign up free</Button>
+          <img
+            src={Placeholder}
+            alt="Miro Workspace"
+            className={styles.placeholder}
+          />
         </section>
-        <section>Next section placeholder</section>
       </main>
     </>
   );

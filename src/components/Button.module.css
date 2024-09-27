@@ -24,3 +24,17 @@
     background-color: #000;
   }
 }
+
+.largebutton {
+  background-color: #3759ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  width: 260px;
+
+  &:hover {
+    text-decoration: none;
+    background-color: #2836aa;
+  }
+}
