@@ -30,20 +30,28 @@ export default function App() {
               </li>
             </ul>
           </nav>
-          <a href="/">Contact Sales</a>
-          <Button secondary>Login</Button>
-          <Button>Sign up free</Button>
+          <ul>
+            <li>
+              <a href="/">Contact Sales </a>
+            </li>
+            <li>
+              <Button secondary>Login</Button>
+            </li>
+            <li>
+              <Button>Sign up free</Button>
+            </li>
+          </ul>
         </div>
       </header>
       <main>
-        <section>
+        <section className={styles.section}>
           <h1>Innovate faster with Miro, the AI-powered visual workspace.</h1>
           <p>
             Bring teams together and quickly go from big ideas to execution with
             a workspace that leverages AI at every stage.
           </p>
-          <input type="email" />
-          <button>Sign up free</button>
+          <input type="email" placeholder="Your email address" />
+          <Button>Sign up free</Button>
         </section>
         <section>Next section placeholder</section>
       </main>
